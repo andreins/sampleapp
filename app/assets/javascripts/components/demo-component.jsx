@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const displayName = "Demo Component";
 const propTypes = {
   path: React.PropTypes.string.isRequired
