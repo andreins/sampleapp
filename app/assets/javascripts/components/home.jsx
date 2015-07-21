@@ -1,5 +1,4 @@
 import React from "react";
-
 const displayName = "Home";
 const propTypes = {
   title: React.PropTypes.string.isRequired
