@@ -2,7 +2,7 @@ import React from "react";
 
 const displayName = "About";
 const propTypes = {
-
+  title: React.PropTypes.string.isRequired
 };
 
 export default class About extends React.Component {
@@ -12,7 +12,7 @@ export default class About extends React.Component {
   }
   render() {
     return (
-      <div>
+      <html>
       <h1>Help</h1>
       <p>
         Get help on the Ruby on Rails Tutorial at the&nbsp;
@@ -21,7 +21,7 @@ export default class About extends React.Component {
         <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
         book</a>.
       </p>
-      </div>
+      </html>
     );
   }
 }

@@ -1,6 +1,9 @@
+<%=provide(:title, "Help")%>
+
+
 <script>
   React.render(
-    React.createElement(Help, { }),
+    React.createElement(Help, {title: "Help"}),
     document.getElementById("container")
   );
 </script>

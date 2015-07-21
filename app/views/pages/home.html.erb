@@ -1,6 +1,7 @@
+<%= provide(:title, "Home")%>
 <script>
   React.render(
-    React.createElement(Home, { }),
+    React.createElement(Home, {title: "Home" }),
     document.getElementById("container")
   );
 </script>
