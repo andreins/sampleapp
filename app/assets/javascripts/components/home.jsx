@@ -3,7 +3,7 @@ import React from "react";
 const displayName = "Home";
 
 const propTypes = {
-
+  signUp: React.PropTypes.string.isRequired
 };
 
 export default class Home extends React.Component {
@@ -21,7 +21,9 @@ export default class Home extends React.Component {
         <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>&nbsp;
         sample application.
         </h2>
-        <div className="btn btn-lg btn-primary"> Sign up now! </div>
+        <a href ={this.props.signUp}>
+          <div className="btn btn-lg btn-primary"> Sign up now! </div>
+        </a>
     </div>
     );
   }

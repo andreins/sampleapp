@@ -15,16 +15,15 @@ export default class Header extends React.Component {
   render() {
     return (
       <header className="navbar navbar-fixed-top navbar-inverse">
-        <div className="container">
-          Sample App
+        <a href = {this.props.homePath}>
+          Sample App</a>
           <nav>
             <ul className ="nav navbar-nav navbar-right">
               <li><a href={this.props.homePath}>Home</a></li>
               <li><a href={this.props.helpPath}>Help</a></li>
-              <li><a href={this.props.loginPath}>Log In</a></li>
+              <li><a href="#">Log In</a></li>
             </ul>
           </nav>
-        </div>
       </header>
     );
   }
