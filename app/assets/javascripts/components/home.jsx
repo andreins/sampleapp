@@ -12,14 +12,14 @@ export default class Home extends React.Component {
   }
   render() {
     return (
-     <body>
-       <h1>Sample App</h1>
-       <p>
-         This is the home page for the&nbsp;
-         <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>&nbsp;
-         sample application.
-       </p>
-     </body>
+    <div className="center jumbotron">
+      <h1>Welcome to the Sample App</h1>
+      <h2>
+        This is the home page for the
+        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application.
+        </h2>
+    </div>
     );
   }
 }

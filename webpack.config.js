@@ -31,6 +31,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
+        include: path.join(__dirname, "app/assets/stylesheets"),
         loader: ExtractTextPlugin.extract("style-loader", "css-loader!sass-loader")
       },
       {

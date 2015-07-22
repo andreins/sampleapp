@@ -7,10 +7,12 @@
     <link rel="stylesheet" type="text/css" href="../assets/style.css">
   </head>
   <body>
-    <%= render 'layouts/header' %>
+    <script src="../assets/bundle.js"></script>
+    <div id="header">
+      <%= render 'layouts/header' %>
+    </div>
     <div id="container">
     </div>
-    <script src="../assets/bundle.js"></script>
     <%= yield %>
     <%= render 'layouts/footer' %>
   </body>
