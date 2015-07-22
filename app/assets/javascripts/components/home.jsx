@@ -1,7 +1,7 @@
 import React from "react";
 const displayName = "Home";
 const propTypes = {
-  title: React.PropTypes.string.isRequired
+  path: React.PropTypes.string.isRequired
 };
 
 export default class Home extends React.Component {
@@ -15,10 +15,11 @@ export default class Home extends React.Component {
     <div className="center jumbotron">
       <h1>Welcome to the Sample App</h1>
       <h2>
-        This is the home page for the
-        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        This is the home page for the&nbsp;
+        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>&nbsp;
         sample application.
         </h2>
+        <div className="btn btn-lg btn-primary"> Sign up now! </div>
     </div>
     );
   }

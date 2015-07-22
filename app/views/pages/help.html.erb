@@ -3,7 +3,7 @@
 
 <script>
   React.render(
-    React.createElement(Help, {title: "Help"}),
+    React.createElement(Help, {help_path: "<%= @help_path %>"}),
     document.getElementById("container")
   );
 </script>
