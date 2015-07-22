@@ -3,7 +3,8 @@ import React from "react";
 const displayName = "Header";
 const propTypes = {
   homePath: React.PropTypes.string.isRequired,
-  helpPath: React.PropTypes.string.isRequired
+  helpPath: React.PropTypes.string.isRequired,
+  loginPath: React.PropTypes.string.isRequired
 };
 
 export default class Header extends React.Component {
@@ -20,7 +21,7 @@ export default class Header extends React.Component {
             <ul className ="nav navbar-nav navbar-right">
               <li><a href={this.props.homePath}>Home</a></li>
               <li><a href={this.props.helpPath}>Help</a></li>
-              <li><a href="#">Log In</a></li>
+              <li><a href={this.props.loginPath}>Log In</a></li>
             </ul>
           </nav>
         </div>
