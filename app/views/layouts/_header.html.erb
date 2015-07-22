@@ -1,6 +1,11 @@
+<%= @home_path = pages_home_path %>
+<%= @help_path = pages_help_path %>
+
 <script>
   React.render(
-    React.createElement(Header, {}),
+    React.createElement(Header, {homePath: "<%=@home_path%>",
+                                 helpPath: "<%=@help_path%>"
+                               }),
     document.getElementById("header")
   );
 </script>

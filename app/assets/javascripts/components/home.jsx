@@ -1,7 +1,9 @@
 import React from "react";
+
 const displayName = "Home";
+
 const propTypes = {
-  path: React.PropTypes.string.isRequired
+
 };
 
 export default class Home extends React.Component {

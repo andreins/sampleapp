@@ -1,9 +1,10 @@
 class PagesController < ApplicationController
-  def home
 
+  def home
+    @home_path = request.fullpath
   end
 
   def help
-    @path = request.fullpath
+    @help_path = request.fullpath
   end
 end
