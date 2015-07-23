@@ -5,3 +5,4 @@ require("expose?Home!./components/home.jsx");
 require("expose?Help!./components/help.jsx");
 require("expose?Footer!./components/footer.jsx");
 require("expose?Header!./components/header.jsx");
+require("expose?User!./components/user-page.jsx");
