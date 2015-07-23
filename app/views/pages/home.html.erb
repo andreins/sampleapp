@@ -1,7 +1,9 @@
 <% @signup_path = signup_path %>
+<div id="home-container">
 <script>
   React.render(
     React.createElement(Home, {signUp : "<%=@signup_path%>"}),
-    document.getElementById("container")
+    document.getElementById("home-container")
   );
 </script>
+</div>

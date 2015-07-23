@@ -1,9 +1,10 @@
 <%=provide(:title, "Help")%>
 
-
+<div id="help-container">
 <script>
   React.render(
     React.createElement(Help, {path: "<%= @home_path %>"}),
-    document.getElementById("container")
+    document.getElementById("help-container")
   );
 </script>
+</div>

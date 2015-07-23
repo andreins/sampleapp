@@ -1,12 +1,12 @@
 <% @user_name = @user.name %>
 <% @user_email = @user.email %>
-<div id="container">
-<script>
-  React.render(
-    React.createElement(User, { userName: "<%=@user_name%>",
-                                userEmail: "<%=@user_email%>"
-                              }),
-    document.getElementById("container")
-  )
-</script>
+<div id="user-container">
+  <script>
+    React.render(
+      React.createElement(User, { userName: "<%=@user_name%>",
+                                  userEmail: "<%=@user_email%>"
+                                }),
+      document.getElementById("user-container")
+    )
+  </script>
 </div>

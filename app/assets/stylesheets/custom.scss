@@ -57,6 +57,10 @@ p {
   a {
     color: white;
   }
+  ul {
+    display: inline-block;
+    margin-right: 20px;
+  }
   #navigation {
     float: left;
   }
@@ -84,4 +88,19 @@ footer {
     float: left;
     margin-left: 15px;
   }
+}
+
+#user-container {
+  margin-top: 45px;
+}
+
+#home-container {
+  margin: auto;
+  width: 75%;
+}
+
+#help-container {
+  margin-top: 45px;
+  margin: auto;
+  width: 75%;
 }
