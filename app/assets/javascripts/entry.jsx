@@ -6,3 +6,4 @@ require("expose?Help!./components/help.jsx");
 require("expose?Footer!./components/footer.jsx");
 require("expose?Header!./components/header.jsx");
 require("expose?User!./components/user-page.jsx");
+require("expose?SignUp!./components/signup-form.jsx");
