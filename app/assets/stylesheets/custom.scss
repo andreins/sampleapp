@@ -40,12 +40,12 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
-
 #header {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: white;
+  display: inline-flex;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -60,6 +60,10 @@ p {
   ul {
     display: inline-block;
     margin-right: 20px;
+  }
+  nav {
+    float: right;
+    display: inline-block;
   }
   #navigation {
     float: left;
